@@ -28,7 +28,7 @@ class approvals (models.Model):
     lastname = models.CharField(max_length=15)
     dependants = models.IntegerField()
     applicantincome = models.IntegerField(default = 0)
-    coapplicantincome = models.IntegerField(defualt = 0)
+    coapplicantincome = models.IntegerField(default = 0)
     loanamount = models.IntegerField(default = 0)
     loanterm = models.IntegerField(default = 0)
     credithistory = models.IntegerField(default = 0)
